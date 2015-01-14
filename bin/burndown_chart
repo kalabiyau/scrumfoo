@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+$:.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+require 'bundler/setup'
+require 'config-parser'
+require 'scrum'
+
+location = Scrum::Sprint.new.draw_chart(ENV['HOME'] + '/Desktop')
+
+if RbConfig::CONFIG['host_os'] =~ /darwin/
+  `open #{location}`
+else
+  `xdg-open #{location}`
+end

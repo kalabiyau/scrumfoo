@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.trello.com/1/boards/hntyZ1yU?key=ca558b78821d8fffa570287dceb50432&token=2b36c46cc6a9d86f75533a66e4f335e3614b22219d1e5f9628ff9f169bdce593
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - DENY
+      X-Trello-Version:
+      - 1.277.0
+      X-Trello-Environment:
+      - Production
+      Set-Cookie:
+      - dsc=300ca9996fb6dc70f6f9b64d70acc344271ba1d48fcb694fe859ae3eb342c7de; Path=/;
+        Expires=Fri, 16 Jan 2015 16:23:06 GMT; Secure
+      - incap_ses_259_168562=yiKJQEemaRQYrOLlaCeYA2pGtVQAAAAA4f1QXKUc4xAwUlOae58XNg==;
+        path=/; Domain=.trello.com
+      - visid_incap_168562=4D7K16fzSNW9t7M8tdEvMmpGtVQAAAAAQUIPAAAAAABO+phUAdKClnRjmRFwWK+7;
+        expires=Thu, 12 Jan 2017 12:40:07 GMT; path=/; Domain=.trello.com
+      X-Server-Time:
+      - '1421166186824'
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Content-Length:
+      - '769'
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Tue, 13 Jan 2015 16:23:06 GMT
+      X-Iinfo:
+      - 7-19233717-19227673 PNNY RT(1421166186658 16) q(0 0 0 -1) r(2 2) U10000
+      X-Cdn:
+      - Incapsula
+    body:
+      encoding: UTF-8
+      string: '{"id":"54b53155b0a7a7c551ffe239","name":"ScrumFooSandbox","desc":"","descData":null,"closed":false,"idOrganization":null,"pinned":false,"url":"https://trello.com/b/hntyZ1yU/scrumfoosandbox","shortUrl":"https://trello.com/b/hntyZ1yU","prefs":{"permissionLevel":"public","voting":"disabled","comments":"members","invitations":"members","selfJoin":false,"cardCovers":true,"cardAging":"regular","calendarFeedEnabled":false,"background":"blue","backgroundColor":"#0079BF","backgroundImage":null,"backgroundImageScaled":null,"backgroundTile":false,"backgroundBrightness":"unknown","canBePublic":true,"canBeOrg":true,"canBePrivate":true,"canInvite":true},"labelNames":{"green":"","yellow":"","orange":"","red":"","purple":"","blue":"","sky":"","lime":"","pink":"","black":""}}'
+    http_version: 
+  recorded_at: Tue, 13 Jan 2015 16:23:06 GMT
+recorded_with: VCR 2.9.2

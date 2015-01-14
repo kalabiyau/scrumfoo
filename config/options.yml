@@ -1,0 +1,8 @@
+default:
+  sprint_days: 10
+  first_scrum_day: 1995-12-31
+  trello:
+    developer_public_key: yourkey
+    member_token: yourmembertoken
+    scrum_enabled_board: yourboard
+  storage: Redis
